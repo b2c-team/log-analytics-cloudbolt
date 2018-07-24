@@ -1,9 +1,10 @@
-#!/usr/local/bin/python3.6
+#!/usr/local/bin/python2.7
 
 from common.methods import set_progress
 from infrastructure.models import Server
 from servicecatalog.models import ServiceItem
-from utilities.events import add_service_event, add_server_event
+"""from utilities.events import add_service_event, add_server_event
+from utilities.events import add_server_event
 from resourcehandlers.azure_arm.models import AzureARMHandler
 
 """
