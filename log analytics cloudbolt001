@@ -41,7 +41,7 @@ def run(job, logger=None, **kwargs):
         'ubuntuOSVersion': "16.04.0-LTS",
     }
     handler = AzureARMHandler.objects.first()
-    template_dir = '/var/opt/cloudbolt/proserv/arm_templates/101-vm-simple-linux/'
+    template_dir = '/var/opt/cloudbolt/proserv/arm_templates/log-analytics_request_and_deploy/'
 
     timeout = '{{timeout}}'
     if timeout:
