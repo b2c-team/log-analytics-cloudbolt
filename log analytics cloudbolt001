@@ -7,6 +7,7 @@ from servicecatalog.models import ServiceItem
 from utilities.events import add_server_event
 from resourcehandlers.azure_arm.models import AzureARMHandler
 
+
 """
 This is an example of building resources defined in a given Azure Resource Manager template.
 Run this plugin as a Service Action to build the resources defined in the template provided.
